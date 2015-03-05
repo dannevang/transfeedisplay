@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <dannevang_transfeedisplay_add_order_total>
+        <reference name="order_totals">
+            <block type="transfeedisplay/sales_order_totals_transfeedisplay" name="total_transfeedisplay" />
+        </reference>
+    </dannevang_transfeedisplay_add_order_total>
+
+    <dannevang_transfeedisplay_add_invoice_total>
+        <reference name="invoice_totals">
+            <block type="transfeedisplay/sales_order_totals_transfeedisplay" name="total_transfeedisplay" />
+        </reference>
+    </dannevang_transfeedisplay_add_invoice_total>
+
+    <dannevang_transfeedisplay_add_creditmemo_total>
+        <reference name="creditmemo_totals">
+            <block type="transfeedisplay/sales_order_totals_transfeedisplay" name="total_transfeedisplay" />
+        </reference>
+    </dannevang_transfeedisplay_add_creditmemo_total>
+
+    <sales_order_view>
+        <update handle="dannevang_transfeedisplay_add_order_total" />
+    </sales_order_view>
+    <sales_order_invoice>
+        <update handle="dannevang_transfeedisplay_add_invoice_total" />
+    </sales_order_invoice>
+    <sales_order_creditmemo>
+        <update handle="dannevang_transfeedisplay_add_creditmemo_total" />
+    </sales_order_creditmemo>
+    <sales_order_print>
+        <update handle="dannevang_transfeedisplay_add_order_total" />
+    </sales_order_print>
+    <sales_order_printinvoice>
+        <update handle="dannevang_transfeedisplay_add_invoice_total" />
+    </sales_order_printinvoice>
+    <sales_order_printcreditmemo>
+        <update handle="dannevang_transfeedisplay_add_creditmemo_total" />
+    </sales_order_printcreditmemo>
+    <sales_email_order_items>
+        <update handle="dannevang_transfeedisplay_add_order_total" />
+    </sales_email_order_items>
+    <sales_email_order_invoice_items>
+        <update handle="dannevang_transfeedisplay_add_invoice_total" />
+    </sales_email_order_invoice_items>
+    <sales_email_order_creditmemo_items>
+        <update handle="dannevang_transfeedisplay_add_creditmemo_total" />
+    </sales_email_order_creditmemo_items>
+    <sales_guest_view>
+        <update handle="dannevang_transfeedisplay_add_order_total" />
+    </sales_guest_view>
+    <sales_guest_invoice>
+        <update handle="dannevang_transfeedisplay_add_invoice_total" />
+    </sales_guest_invoice>
+    <sales_guest_creditmemo>
+        <update handle="dannevang_transfeedisplay_add_creditmemo_total" />
+    </sales_guest_creditmemo>
+    <sales_guest_print>
+        <update handle="dannevang_transfeedisplay_add_order_total" />
+    </sales_guest_print>
+    <sales_guest_printinvoice>
+        <update handle="dannevang_transfeedisplay_add_invoice_total" />
+    </sales_guest_printinvoice>
+    <sales_guest_printcreditmemo>
+        <update handle="dannevang_transfeedisplay_add_creditmemo_total" />
+    </sales_guest_printcreditmemo>
+</layout>
