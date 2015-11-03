@@ -2,8 +2,10 @@
 
 This is a simple Magento extension that displays the card fee made from orders where the customer used the epay payment module (https://github.com/ePay/magento) and displays it as a separate line in the orders total.
 
-Works on the order confirmation, invoice and credit memo. 
- 
+![](https://www.evernote.com/l/ABVIjhzZu1JJGb6118rPUMeuV9LFo1DP5TYB/image.png)
+
+Works on the order confirmation, invoice and credit memo.
+
 ## Tested on
 ePay v.2.6.4
 Magento v.1.9+
