@@ -5,7 +5,10 @@ This is a simple Magento extension that displays the card fee made from orders w
 Works on the order confirmation, invoice and credit memo. 
  
 ## Tested on
-Magento 1.9.0.1
-ePay 2.6.4
+ePay v.2.6.4
+Magento v.1.9+
 
-It should work with other versions as well, but it haven’t been tested. 
+It should work with other versions as well, but it haven’t been tested.
+
+## Installation
+Install by merging the contents of the app folder with the app folder in your magento installation.
